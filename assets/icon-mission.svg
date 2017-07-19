@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="about---desktop" transform="translate(-305.000000, -751.000000)" stroke="#878787" stroke-width="2">
+            <g id="Page-1" transform="translate(306.000000, 752.000000)">
+                <path d="M52,31 C52,42.598 42.598,52 31,52 C19.402,52 10,42.598 10,31 C10,19.402 19.402,10 31,10 C42.598,10 52,19.402 52,31 Z" id="Stroke-1"></path>
+                <path d="M31,17 L31,0" id="Stroke-3"></path>
+                <polyline id="Stroke-5" points="35 4 31 0 27 4"></polyline>
+                <path d="M31,45 L31,62" id="Stroke-7"></path>
+                <polyline id="Stroke-9" points="27 58 31 62 35 58"></polyline>
+                <path d="M17,31 L0,31" id="Stroke-11"></path>
+                <polyline id="Stroke-13" points="4 27 0 31 4 35"></polyline>
+                <path d="M45,31 L62,31" id="Stroke-15"></path>
+                <polyline id="Stroke-17" points="58 35 62 31 58 27"></polyline>
+                <path d="M19.9287,19.9287 L7.3227,7.3227" id="Stroke-19"></path>
+                <polyline id="Stroke-21" points="13 7 7 7 7 13"></polyline>
+                <path d="M42.0713,42.0713 L54.6773,54.6773" id="Stroke-23"></path>
+                <polyline id="Stroke-25" points="49 55 55 55 55 49"></polyline>
+                <path d="M19.9287,42.0713 L7.3227,54.6773" id="Stroke-27"></path>
+                <polyline id="Stroke-29" points="7 49 7 55 13 55"></polyline>
+                <path d="M42.0713,19.9287 L54.6773,7.3227" id="Stroke-31"></path>
+                <polyline id="Stroke-33" points="55 13 55 7 49 7"></polyline>
+                <path d="M40,31 C40,35.971 35.971,40 31,40 C26.029,40 22,35.971 22,31 C22,26.029 26.029,22 31,22 C35.971,22 40,26.029 40,31 Z" id="Stroke-35"></path>
+                <path d="M35,31 C35,33.209 33.209,35 31,35 C28.791,35 27,33.209 27,31 C27,28.791 28.791,27 31,27 C33.209,27 35,28.791 35,31 Z" id="Stroke-37"></path>
+            </g>
+        </g>
+    </g>
+</svg>

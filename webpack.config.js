@@ -63,6 +63,10 @@ module.exports = {
           }
         ]
       },
+      {
+        test: /\.html$/,
+        use: ['html-loader']
+      },
       // extract global css into separate files
       {
         test: /\.scss$/,
