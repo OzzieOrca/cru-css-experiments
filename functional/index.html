@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Functional</title>
+  <meta charset="UTF-8">
+  <title>Functional</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400&ver=4.8" rel="stylesheet">
+
+  <style>
+    body {font-family: 'Source Sans Pro', sans-serif;}
+    h2.subtitle:after {
+      content: "";
+      display: block;
+      height: 1px;
+      background-color: black;
+      width: 80px;
+      margin: 0 auto;
+    }
+  </style>
+
 </head>
-<body>
-<div class="flex w-100 pa3 pa4-ns">
-    <div class="flex-auto">Menu</div>
-    <div class="flex-auto tc">Cru</div>
-    <div class="flex-auto tr">Search</div>
+
+<body class="black">
+
+<!-- <div class="flex w-100 pa3 pa4-ns">
+  <div class="flex-auto">Menu</div>
+  <div class="flex-auto tc">Cru</div>
+  <div class="flex-auto tr">Search</div>
 </div>
-<div class="bg-light-gray ttu h5 flex items-center justify-center">About Cru</div>
+
+<div class="bg-light-gray ttu h5 flex items-center justify-center">About Cru</div> -->
+
+  <section id="hero" class="cover bg-center" style="background-image: url(https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg)">
+    <div class="bg-black-20 pv6">
+      <div class="tc mt0">
+        <h1 class="f2 normal white ma0 lh-title ttu pv5">About Cru</h1>
+      </div>
+    </div>
+  </section>
+
+  <section id="core" class="w-80 tc center pv4">
+    <div class="fl w-third ph2">
+      <article class="w-100 ph3 pv4 ba b--light-gray">
+        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
+        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
+      </article>
+    </div>
+    <div class="fl w-third ph2">
+      <article class="w-100 ph3 pv4 ba b--light-gray">
+        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
+        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
+      </article>
+    </div>
+    <div class="fl w-third ph2">
+      <article class="w-100 ph3 pv4 ba b--light-gray">
+        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
+        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
+      </article>
+    </div>
+    <div class="cf"></div>
+  </section>
+
+  <section id="timeline" class="pv4 w-75 center">
+    <div class="w-100 tc">
+      <h2 class="subtitle f2 ttu b mt0 mb4">The Past</h2>
+      <p class="lh-copy f4 mb0">It's <span class="b">the past</span> that shaped <span class="b">the present</span> that will form <span class="b">the future</span>.<br /><span class="blue">It's all the story of people being transformed by the love of Jesus.</span></p>
+    </div>
+  </section>
+
 </body>
 </html>
