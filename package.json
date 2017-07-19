@@ -24,7 +24,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "build": "webpack -p"
   }
 }
