@@ -28,22 +28,22 @@ module.exports = {
             new ExtractTextPlugin({ filename: "[name].[chunkhash].css", disable: !isBuild }),
             new HtmlWebpackPlugin({
                 template: 'index.html',
-                chunks: 'index'
+                chunks: ['index']
             }),
             new HtmlWebpackPlugin({
                 filename: 'functional/index.html',
                 template: 'functional/index.html',
-                chunks: 'functional'
+                chunks: ['functional']
             }),
             new HtmlWebpackPlugin({
                 filename: 'bootstrap/index.html',
                 template: 'bootstrap/index.html',
-                chunks: 'bootstrap'
+                chunks: ['bootstrap']
             }),
             new HtmlWebpackPlugin({
                 filename: 'foundation/index.html',
                 template: 'foundation/index.html',
-                chunks: 'foundation'
+                chunks: ['foundation']
             })
         ]
     ),
