@@ -19,48 +19,27 @@
   background-size: contain;
 }
 
-.pa0{
-  padding: 0;
+.cross-background{
+  background: url('../assets/cross-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white
 }
 
-.pa1{
-  padding: 1em;
+.heading-underline {
+  &:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 80px;
+    margin: 0 auto;
+  }
 }
 
-.pv1{
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-//.pv2{
-//  padding-top: 2em;
-//  padding-bottom: 2em;
-//}
-
-.pv3{
-  padding-top: 4em;
-  padding-bottom: 4em;
-}
-
-//.pv4{
-//  padding-top: 8em;
-//  padding-bottom: 8em;
-//}
-
-//.mt1{
-//  margin-top: 1em;
-//}
-//
-//.mt2{
-//  margin-top: 2em;
-//}
-//
-//.mt3{
-//  margin-top: 4em;
-//}
-
-.mb0{
-  margin-bottom: 0;
+.mt-20em{
+  margin-top: 20em;
 }
 
 .light-blue{
@@ -71,21 +50,4 @@
   background-color: #d7f0f5;
 }
 
-
 .measure{ max-width: 30em; }
-//.measure-l{ max-width: 30em; }
-//.measure-m{ max-width: 30em; }
-//.measure-narrow{ max-width: 20em; }
-//.measure-narrow-l{ max-width: 20em; }
-//.measure-narrow-m{ max-width: 20em; }
-//.measure-narrow-ns{ max-width: 20em; }
-//.measure-ns{ max-width: 30em; }
-//.measure-wide{ max-width: 34em; }
-//.measure-wide-l{ max-width: 34em; }
-//.measure-wide-m{ max-width: 34em; }
-//.measure-wide-ns{ max-width: 34em; }
-
-.center{
-  margin-right: auto;
-  margin-left: auto;
-}
