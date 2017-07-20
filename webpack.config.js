@@ -6,8 +6,6 @@ const concat = require('lodash/concat');
 const omit = require('lodash/omit');
 const keys = require('lodash/keys');
 
-const isBuild = process.env.npm_lifecycle_event === 'build';
-
 const entryPoints = {
   main: './index.js',
   functional: './functional/functional.js',
@@ -26,7 +24,7 @@ module.exports = {
   },
   plugins: concat(
     [
-      new ExtractTextPlugin({ filename: "[name].[chunkhash].css", disable: !isBuild }),
+      new ExtractTextPlugin({ filename: "[name].[chunkhash].css" }),
       new HtmlWebpackPlugin({
         template: 'index.html',
         chunks: ['index']
@@ -70,18 +68,12 @@ module.exports = {
       // extract global css into separate files
       {
         test: /\.scss$/,
-        use: isBuild ?
-          ExtractTextPlugin.extract({
+        use: ExtractTextPlugin.extract({
             use: [
               "css-loader?sourceMap",
               "sass-loader?sourceMap"
             ]
-          }) :
-          [
-            "style-loader",
-            "css-loader?sourceMap",
-            "sass-loader?sourceMap"
-          ]
+          })
       },
       {
           test: /\.(woff|ttf|eot|ico)/,
