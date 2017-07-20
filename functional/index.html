@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <title>Functional</title>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400&ver=4.8" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
 
   <style>
     body {font-family: 'Source Sans Pro', sans-serif;}
     h2.subtitle:after {
       content: "";
       display: block;
-      height: 1px;
-      background-color: black;
-      width: 80px;
-      margin: 0 auto;
+      height: 4px;
+      background-color: #ff6300;
+      width: 50px;
+      margin: .5rem auto 0;
     }
   </style>
 
 </head>
 
-<body class="black">
+<body class="mid-gray">
 
 <!-- <div class="flex w-100 pa3 pa4-ns">
   <div class="flex-auto">Menu</div>
@@ -30,40 +30,165 @@
 
 <div class="bg-light-gray ttu h5 flex items-center justify-center">About Cru</div> -->
 
-  <section id="hero" class="cover bg-center" style="background-image: url(https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg)">
-    <div class="bg-black-20 pv6">
+  <section id="hero" class="cover bg-center" style="background-image: url(../assets/students-kgp_cropped.jpg)">
+    <div class="bg-black-30 pv6">
       <div class="tc mt0">
-        <h1 class="f2 normal white ma0 lh-title ttu pv5">About Cru</h1>
+        <h1 class="f2 b white ma0 lh-title ttu pv5">About Cru</h1>
       </div>
     </div>
   </section>
 
-  <section id="core" class="w-80 tc center pv4">
-    <div class="fl w-third ph2">
-      <article class="w-100 ph3 pv4 ba b--light-gray">
-        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
-        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
-      </article>
+  <section id="core" class="mv5">
+    <div class="mw8 center tc cf">
+      <div class="fl w-third ph3">
+        <article class="pa4 ba b--light-gray">
+          <h3 class="ttu b f3 mt0 mb4 lh-title">Our Mission</h3>
+          <img src="../assets/icon-mission.svg" class="mb4" />
+          <p class="mb0 lh-copy">Win, build and send Christ-centered multiplying disciples who launch spiritual movements.</p>
+        </article>
+      </div>
+      <div class="fl w-third ph3">
+        <article class="pa4 ba b--light-gray">
+          <h3 class="ttu b f3 mt0 mb4 lh-title">Our Purpose</h3>
+          <p class="mb0 lh-copy">Helping to fulfill the Great Commission in the power of the Holy Spirit by winning people to faith in Jesus Christ, building them in their faith and sending them to win and build others; and helping the Body of Christ do evangelism and discipleship.</p>
+        </article>
+      </div>
+      <div class="fl w-third ph3">
+        <article class="pa4 ba b--light-gray">
+          <h3 class="ttu b f3 mt0 mb4 lh-title">Our Vision</h3>
+          <img src="../assets/icon-vision.svg" class="mb4" />
+          <p class="mb0 lh-copy">Movements everywhere so that everyone knows someone who trully follow Jesus.</p>
+        </article>
+      </div>
     </div>
-    <div class="fl w-third ph2">
-      <article class="w-100 ph3 pv4 ba b--light-gray">
-        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
-        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
-      </article>
-    </div>
-    <div class="fl w-third ph2">
-      <article class="w-100 ph3 pv4 ba b--light-gray">
-        <h3 class="ttu fw6 f3 mt0 mb4 lh-title">Title</h3>
-        <p class="mb0 lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque eros placerat, auctor est non, rutrum quam. Fusce tempor sem.</p>
-      </article>
-    </div>
-    <div class="cf"></div>
   </section>
 
-  <section id="timeline" class="pv4 w-75 center">
-    <div class="w-100 tc">
-      <h2 class="subtitle f2 ttu b mt0 mb4">The Past</h2>
-      <p class="lh-copy f4 mb0">It's <span class="b">the past</span> that shaped <span class="b">the present</span> that will form <span class="b">the future</span>.<br /><span class="blue">It's all the story of people being transformed by the love of Jesus.</span></p>
+  <section id="past" class="mv5">
+    <div class="mw8 center tc">
+      <h2 class="subtitle f2 ttu b mt0 mb4 tc">The Past</h2>
+      <p class="lh-copy f4 mv0">It's <span class="b">the past</span> that shaped <span class="b">the present</span> that will form <span class="b">the future</span>.</p>
+      <p class="lh-copy f4 mv0 blue">It's all the story of people being transformed by the love of Jesus.</p>
+    </div>
+  </section>
+
+  <section id="present" class="pv5 bg-lightest-blue">
+    <div class="mw8 center tc mb5">
+      <h2 class="subtitle f2 ttu b mt0 mb4">The Present</h2>
+      <p class="lh-copy f4 mb0 mw6 center">Cru offers spiritual guidance, resources and programs tailored for people from all cultures in every walk of life.</p>
+    </div>
+    <div class="bg-center contain" style="background-image: url(../assets/world-pixelated.png);">
+      <div class="mw8 center tc cf">
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">High School</h4>
+            <p class="mt0 mb3 b f1 light-blue">20</p>
+            <h3 class="b f5 mt0 mb3 lh-title">U.S. Cities</h3>
+            <p class="mb4 lh-copy">Reaching the students and faculty on the world's high school campuses.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">Campus</h4>
+            <p class="mt0 mb3 b f1 light-blue">5,300</p>
+            <h3 class="b f5 mt0 mb3 lh-title">Ministries Worldside</h3>
+            <p class="mb4 lh-copy">Helping college students come to know Jesus and grow in their faith.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">City</h4>
+            <p class="mt0 mb3 b f1 light-blue">35</p>
+            <h3 class="b f5 mt0 mb3 lh-title">U.S. Cities</h3>
+            <p class="mb4 lh-copy">Advancing the mission of Jesus for the well-being of the city.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">Familylife</h4>
+            <p class="mt0 mb3 b f1 light-blue">109</p>
+            <h3 class="b f5 mt0 mb3 lh-title">Countries</h3>
+            <p class="mb4 lh-copy">Equipping couples with practical, scripture-based approaches.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">Athletes in Action</h4>
+            <p class="mt0 mb3 b f1 light-blue">35</p>
+            <h3 class="b f5 mt0 mb3 lh-title">Sports Teams</h3>
+            <p class="mb4 lh-copy">A Christ follower on every team, in every sport and in every country.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+        <div class="fl w-third ph2 mv2">
+          <article class="pa4 bg-white-60">
+            <h4 class="ttu b f6 mt0 mb3 lh-title tracked">Military</h4>
+            <p class="mt0 mb3 b f1 light-blue">25</p>
+            <h3 class="b f5 mt0 mb3 lh-title">Countries</h3>
+            <p class="mb4 lh-copy">Bringing hope and resources to the military worldwide.</p>
+            <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">See more</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leadership" class="mv5">
+    <div class="mw8 center tc">
+      <h2 class="subtitle f2 ttu b mt0 mb4 tc">Our Leadership</h2>
+      <div class="cf mb4">
+        <div class="fl w-50">
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/steve-douglas.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Steve<br />Douglas</h4>
+          </div>
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/steve-sellers.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Steve<br />Sellers</h4>
+          </div>
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/greg-lillestrand.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Greg &amp; Charmaine<br />Lillestrand</h4>
+          </div>
+        </div>
+        <div class="fl w-50">
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/darryl-smith.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Darryl<br />Smith</h4>
+          </div>
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/mark-gauthier.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Mark<br />Gauthier</h4>
+          </div>
+          <div class="fl w-third">
+            <div style="background-image: url(../assets/leaders/josh-mcdowell.png);">
+              <div class="bg-black-40 aspect-ratio aspect-ratio--1x1"></div>
+            </div>
+            <h4 class="mt3 mb0 tracked ttu f6 lh-solid">Josh<br />McDowell</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="dib dark-blue ba bw1 b-dark-blue br2 no-underline ph5 pv3 ttu fw6">View Entire Team</a>
+    </div>
+  </section>
+
+  <section id="future" class="pv5 bg-lightest-blue">
+    <div class="mw8 center tc">
+      <h2 class="subtitle f2 ttu b mt0 mb4">The Future</h2>
+      <p class="lh-copy f4 mv0 center">What YOU can do TODAY to shape the future.</p>
     </div>
   </section>
 
