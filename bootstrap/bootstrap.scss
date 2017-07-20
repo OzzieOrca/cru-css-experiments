@@ -12,6 +12,13 @@
   color: white;
 }
 
+.world-background{
+  background: url('../assets/world-pixelated.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .pa0{
   padding: 0;
 }
