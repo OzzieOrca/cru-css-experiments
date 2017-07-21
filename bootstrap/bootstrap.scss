@@ -1,5 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 
+$base-text-color: #5A5A5A;
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $base-text-color;
+}
+
 .hero-image{
   background: url('../assets/students-kgp.png');
   background-position: center;
@@ -31,15 +38,15 @@
   &:after {
     content: "";
     display: block;
-    height: 1px;
-    background-color: black;
-    width: 80px;
-    margin: 0 auto;
+    height: 4px;
+    background-color: #ff6300;
+    width: 50px;
+    margin: .5rem auto 0;
   }
 }
 
-.mt-20em{
-  margin-top: 20em;
+.mt-27rem{
+  margin-top: 27rem;
 }
 
 .mt--1{
@@ -66,6 +73,7 @@
 }
 
 .measure{ max-width: 30em; }
+.measure-narrow{ max-width: 20em; }
 .measure-timeline-copy { max-width: 25em; }
 
 .year{
@@ -85,12 +93,12 @@
     margin-left: 9px;
   }
   &.year-active{
-    color: #5A5A5A;
+    color: $base-text-color;
     font-size: 2em;
     &:before{
       width: 24px;
       height: 24px;
-      border: 8px solid #fff;
+      border: 9px solid #fff;
       box-shadow: 0 0 0 1px #979797;
       margin-left: 0;
     }
@@ -104,6 +112,8 @@
   position: relative;
   justify-content: space-around;
   font-size: .8em;
+  padding-left: 10em;
+  padding-right: 10em;
   &:before {
     content: '';
     position: absolute;
@@ -144,9 +154,69 @@
 }
 
 .footer-nav-links{
-  font-size: .7em;
+  a{
+    color: $base-text-color;
+    line-height: 1.7em;
+  }
+}
+
+.footer-nav-links-white{
+  a{
+    color: white;
+    line-height: 1.7em;
+  }
 }
 
 .footer-border-top{
   border-top: 1px solid #979797;
+}
+
+.page-title{
+  border-left: 1px solid #D8D8D8;
+  margin-left: 1em;
+  padding-left: 1em;
+  color: #BEBEBE;
+}
+
+.text-small{
+  font-size: .9em;
+}
+
+.card-translucent{
+  background-color: rgba(255, 255, 255, .64);
+}
+
+.card-transparent{
+  background: none;
+}
+
+.card-stat{
+  font-size: 4.5em;
+  color: #32C3D7;
+}
+
+.footer-ministry-search{
+  background-color: #464646;
+  border: none;
+  min-width: 15em;
+  color: white;
+  &::placeholder{
+    color: white;
+  }
+}
+
+.btn-outline-primary{
+  color: #05699B;
+  border-color: #05699B;
+  padding: .9rem 2rem;
+  border-width: 2px;
+}
+
+.btn-outline-white{
+  color: white;
+  border-color: white;
+  padding: .9rem 2rem;
+  border-width: 2px;
+  background: none;
+  font-size: 1.5em;
 }
