@@ -157,6 +157,7 @@ body {
   a{
     color: $base-text-color;
     line-height: 1.7em;
+    white-space: nowrap;
   }
 }
 
@@ -164,6 +165,7 @@ body {
   a{
     color: white;
     line-height: 1.7em;
+    white-space: nowrap;
   }
 }
 
